@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage One HNGx</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <main>
+      <!-- container for the profile page -->
+      <div class="profile-page">
+        <div class="slackName" data-testid="slackUserName">
+          <p>slackUserName : <strong>Codzschach</strong></p>
+        </div>
+        <div class="profile-pic" data-testid="slackDisplayImage">
+          <img src="/images/slack-pic.jpg" alt="My slack display picture" />
+        </div>
+        <div class="dayOfTheWeek" data-testid="currentDayOfTheWeek">
+      
+        </div>
+        <div class="currentUtcTime" data-testId="currentUTCTime"></div>
+        <div class="track" data-testId="myTrack">
+          <h4>Track: Fronted</h4>
+        </div>
+        <div class="repolink">
+          <p>GitHub URL <a href="https://github.com/Joker4mas">click</a></p>
+        </div>
+      </div>
+    </main>
+    <script src="daysOfweek.js"></script>
+    <script src="time.js"></script>
+  </body>
+</html>
