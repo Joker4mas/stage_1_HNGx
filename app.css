@@ -11,7 +11,7 @@ body {
 }
 
 .profile-page {
-    width: 40%;
+    width: 50%;
     height: 85vh;
     background-color: antiquewhite;
     margin-top: 2rem;
@@ -47,7 +47,7 @@ body {
     padding: 0.5rem;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   .profile-page{
     width:80%;
   }
